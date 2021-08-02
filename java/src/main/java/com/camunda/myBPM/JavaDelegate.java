@@ -1,4 +1,4 @@
-package com.camunda.myBPM.org.camunda.bpm.engine.delegate;
+package com.camunda.myBPM;
 
 public interface JavaDelegate {
 }

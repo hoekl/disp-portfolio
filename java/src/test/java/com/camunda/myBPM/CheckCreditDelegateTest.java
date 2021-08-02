@@ -7,7 +7,6 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
-import com.camunda.myBPM.org.camunda.bpm.engine.delegate.CheckCreditDelegate;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.junit.Test;
 
