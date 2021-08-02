@@ -1,7 +1,9 @@
 package com.camunda.myBPM.org.camunda.bpm.engine.delegate;
-import java.util.Random;
+
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
+
+import java.util.Random;
 public class CheckCreditDelegate implements JavaDelegate {
     @Override
     public void execute(DelegateExecution execution) throws Exception {
