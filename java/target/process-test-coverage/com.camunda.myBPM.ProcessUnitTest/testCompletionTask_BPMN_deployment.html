@@ -68,9 +68,9 @@
 
   <div id="info-box">
 	<div>Process Definition Name: BPMN_deployment</div>
-	<div>Coverage: 0%</div>
-	<div>Test Class: com.camunda.myBPM.InMemoryH2Test</div>
-	
+	<div>Coverage: 36.8%</div>
+	<div>Test Class: com.camunda.myBPM.ProcessUnitTest</div>
+	<div>TestMethod: testCompletionTask</div>
   </div>
   
   <!-- element to draw bpmn diagram in -->
@@ -198,6 +198,13 @@
           
         }
       }          
+			canvas.addMarker('Activity_1yvj5ov', 'highlight');
+			$("g[data-element-id='Activity_0k6byvc']").addClass('highlight-running');
+			canvas.addMarker('StartEventProcessStarted', 'highlight');
+			canvas.addMarker('Gateway_0p2jy18', 'highlight');
+			$("g[data-element-id='Flow_1gdy4yi']").find('path').attr('stroke', '#00ff00');
+			$("g[data-element-id='Flow_0wf0bje']").find('path').attr('stroke', '#00ff00');
+			$("g[data-element-id='Flow_1fx6muc']").find('path').attr('stroke', '#00ff00');
           //YOUR ANNOTATIONS GO HERE
 
         });
