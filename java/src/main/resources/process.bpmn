@@ -23,7 +23,7 @@
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{creditScore &gt;= 600}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_1gdy4yi" name="Decision deferred" sourceRef="Gateway_0p2jy18" targetRef="Activity_0k6byvc">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{creditScore &gt; 400 and creditScore &lt; 600}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{creditScore &gt;= 400 and creditScore &lt; 600}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_06c16r7" name="Credit declined" sourceRef="Gateway_0p2jy18" targetRef="Activity_1y9vtcf">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">#{creditScore &lt; 400}</bpmn:conditionExpression>
